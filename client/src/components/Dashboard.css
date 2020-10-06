@@ -1,0 +1,65 @@
+.dashboard {
+  width: 100%;
+  /* height: 100vh; */
+  place-self: stretch;
+  display: flex;
+  background-color: #f2f3f9;
+  color: rgba(52, 58, 64, 0.9);
+}
+.dashboard__appbar {
+  background-color: rgba(250, 172, 168, 0.7) !important;
+  background-image: linear-gradient(
+    45deg,
+    #faaca8 0%,
+    rgba(250, 172, 168, 0.7) 51%,
+    #ff9a8b 100%
+  );
+  height: 5rem;
+  justify-content: space-between;
+  flex-direction: row !important;
+  align-items: center;
+}
+.dashboard__info {
+  display: flex;
+  align-content: center;
+}
+.dashboard__info > h1 {
+  padding-left: 0.75rem;
+  padding-top: 0.5rem;
+  font-size: 1.75rem;
+  color: rgba(52, 58, 64, 0.9);
+}
+.dashboard__appbar > a {
+  margin-left: 2rem;
+  color: rgba(52, 58, 64, 0.7);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dashboard__avatar {
+  margin-left: 2rem;
+  height: 3.5rem !important;
+  width: 3.5rem !important;
+}
+
+.dashboard__container {
+  margin: auto;
+}
+.MuiButton-root {
+  margin-right: 2rem !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  border-radius: 20px !important;
+  background-color: rgba(52, 58, 64, 0.7) !important;
+  border: none !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  transition: all;
+  transition-duration: 1s;
+  color: white !important;
+  text-transform: none !important;
+}
+.MuiButton-root:hover {
+  background-color: rgba(52, 58, 64, 0.9) !important;
+  transform: translateY(-1px);
+}

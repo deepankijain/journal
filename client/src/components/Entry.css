@@ -1,0 +1,47 @@
+.text-editor {
+  margin: 0 auto;
+  padding: 0.5rem;
+  margin-top: 10rem;
+  width: 95%;
+  z-index: 100;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-width: 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+}
+.quill {
+  border: none;
+}
+.ql-editor {
+  min-height: 250px;
+  font-size: 1rem;
+  border: none;
+}
+.ql-container {
+  border: none !important;
+}
+#toolbar {
+  border: none;
+  border-bottom: 1px solid #ff9a8b;
+}
+span,
+button {
+  font-size: 1rem;
+}
+form > .entry__button {
+  background-color: salmon;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgba(52, 58, 64, 1);
+  border-radius: 2rem;
+  justify-self: center;
+  margin: auto;
+}
+.entry__button:focus {
+  outline: none;
+}

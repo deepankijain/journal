@@ -1,0 +1,35 @@
+.navbar {
+  width: 80vw;
+  height: 10vh;
+  display: flex;
+  position: fixed;
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 0 !important;
+}
+
+.navbar-brand {
+  color: #333333 !important;
+  font-weight: 600;
+  font-size: 2rem !important;
+}
+input {
+  border-radius: 10px !important;
+}
+.btn {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  border-radius: 20px !important;
+  background-color: rgba(52, 58, 64, 0.7) !important;
+  border: none !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  transition: all;
+  transition-duration: 1s;
+  justify-self: flex-end;
+  margin: 0 !important;
+}
+.btn:hover {
+  background-color: rgba(52, 58, 64, 0.9) !important;
+  transform: translateY(-1px);
+}

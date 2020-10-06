@@ -1,0 +1,17 @@
+.signUp > h1 {
+  text-align: center;
+  color: rgba(52, 58, 64, 0.9);
+}
+
+.signUp > div {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.signUp > div > .btn {
+  margin-bottom: 0.5rem;
+  background-color: rgba(52, 58, 64, 0.7) !important;
+}
+.signUp > div > .btn:hover {
+  background-color: rgba(52, 58, 64, 0.9) !important;
+}
