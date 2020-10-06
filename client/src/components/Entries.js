@@ -25,7 +25,7 @@ const Entries = () => {
     return () => {
       unsubscribe();
     };
-  }, []);
+  }, [user]);
   const deleteEntry = async (id) => {
     try {
       let response = await db

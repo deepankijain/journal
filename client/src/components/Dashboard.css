@@ -1,9 +1,9 @@
 .dashboard {
   width: 100%;
-  /* height: 100vh; */
-  place-self: stretch;
+  max-width: 100vw;
   display: flex;
   background-color: #f2f3f9;
+  background-size: contain;
   color: rgba(52, 58, 64, 0.9);
 }
 .dashboard__appbar {

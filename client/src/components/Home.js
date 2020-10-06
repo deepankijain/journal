@@ -8,7 +8,11 @@ const Home = () => {
       <Header />
       <div className='home__container'>
         <div className='home__left'>
-          <p>A place to vent out feelings or write memories...</p>
+          <h4>Digital Journal</h4>
+          <p>
+            a place to Stay connected to your inner self, your body, your dreams
+            and your purpose in life...
+          </p>
         </div>
         <div className='home__right'>
           <SignUp />

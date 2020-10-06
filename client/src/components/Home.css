@@ -34,6 +34,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3rem;
 }
 .home__right {
   border-radius: 1rem;
@@ -47,8 +48,13 @@
   margin-top: 1.75rem;
   max-width: 40vw;
 }
+.home__left > h4 {
+  font-size: 2rem;
+  text-align: center;
+  color: rgba(52, 58, 64, 0.9);
+}
 .home__left > p {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   color: rgba(52, 58, 64, 0.9);
 }

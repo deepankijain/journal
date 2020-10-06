@@ -5,6 +5,7 @@ import { useStateValue } from '../hooks/StateProvider';
 import { useHistory } from 'react-router-dom';
 import { Navbar, Button } from 'react-bootstrap';
 const Header = () => {
+  // eslint-disable-next-line
   const [{}, dispatch] = useStateValue();
   const history = useHistory();
   const signIn = async () => {
