@@ -25,7 +25,7 @@ input {
   padding-left: 1rem !important;
   padding-right: 1rem !important;
   transition: all;
-  transition-duration: 1s;
+  transition-duration: 1ms;
   justify-self: flex-end;
   margin: 0 !important;
 }

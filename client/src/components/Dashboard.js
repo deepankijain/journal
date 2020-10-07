@@ -26,7 +26,7 @@ const Dashboard = () => {
       <AppBar className='dashboard__appbar'>
         <div className='dashboard__info'>
           <Avatar src={user?.photoURL} className='dashboard__avatar' />
-          <h1>{user?.displayName}</h1>
+          <h1>Hello, {user?.displayName}!</h1>
         </div>
         <Button onClick={signOut}>Sign Out</Button>
       </AppBar>

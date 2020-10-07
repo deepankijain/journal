@@ -10,7 +10,7 @@ const Home = () => {
         <div className='home__left'>
           <h4>Digital Journal</h4>
           <p>
-            a place to Stay connected to your inner self, your body, your dreams
+            place to Stay connected to your inner self, your body, your dreams
             and your purpose in life...
           </p>
         </div>
