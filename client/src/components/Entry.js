@@ -5,15 +5,13 @@ import 'react-quill/dist/quill.snow.css';
 import './Entry.css';
 import db, { timestamp } from '../firebase';
 import { useStateValue } from '../hooks/StateProvider';
-import parse from 'html-react-parser';
+
 const Entry = () => {
   const [state, setState] = useState('');
   const [{ user }] = useStateValue();
   const handleChange = (e) => {
     setState(e);
   };
-  const entry = parse(state);
-  console.log(`parsed state>>>>>`, entry);
   const addEntry = async (e) => {
     e.preventDefault();
     if (user) {

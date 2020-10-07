@@ -17,10 +17,11 @@ const Dashboard = () => {
         user: null,
       });
       history.replace('/');
-    } catch (error) {}
+    } catch (error) {
+      console.log(error);
+    }
   };
 
-  console.log(`dashboard user>>>>`, user);
   return (
     <div className='dashboard'>
       <AppBar className='dashboard__appbar'>

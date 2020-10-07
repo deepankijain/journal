@@ -7,7 +7,6 @@ import { useStateValue } from './hooks/StateProvider';
 
 function App() {
   const [{ user }] = useStateValue();
-  console.log(user);
   return (
     <div className='app'>
       <Router>
